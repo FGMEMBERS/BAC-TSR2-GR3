@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>shrike.ac</path>
+ 
+  <!-- 
+  Shrike anti-radar missile
+  -->
+  <animation>
+    <type>select</type>
+    <object-name>Shrike</object-name>      
+    <condition>
+      <and>
+        <equals>
+          <property>/sim/armament</property>
+          <value>BlackBuck6</value>
+        </equals>
+        <equals>
+          <property>/controls/armament/triggershrike1</property>
+          <value>false</value>
+        </equals>
+      </and>
+    </condition>
+  </animation>
+
+  <!-- Don't display the smoke (the submodel will reference the .ac model -->
+  <animation>
+    <type>select</type>
+    <object-name>Smoke</object-name>      
+    <condition>
+      <and>
+        <equals>
+          <property>/sim/variant</property>
+          <value>wibble</value>
+        </equals>
+      </and>
+    </condition>
+  </animation>
+
+</PropertyList>

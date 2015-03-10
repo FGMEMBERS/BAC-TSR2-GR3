@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+<!--
+************************************************************************
+BAC TSR2 simulation config.
+
+2007-12-17 Lee Elliott
+************************************************************************
+-->
+
+<PropertyList>
+  <sim>
+
+    <startup>
+      <splash-texture>Aircraft/BAC-TSR2-GR3/splash.rgb</splash-texture>
+    </startup>
+
+    <flight-model>yasim</flight-model>
+    <status>alpha V1.6</status>
+    <author>Lee Elliott ( original TSR2 ) StuartC</author>
+    <aero>BAC-TSR2-GR3-yasim</aero>
+    <fuel-fraction>1</fuel-fraction>
+
+    <description>BAC TSR2 GR3 Fantasy version (YASim FDM)</description>
+
+    <virtual-cockpit archive="y">true</virtual-cockpit>
+
+    <chase-distance-m type="double" archive="y">-30.0</chase-distance-m>
+
+    <view n="0">
+      <internal archive="y">true</internal>
+      <config>
+        <x-offset-m archive="y">0.0</x-offset-m>
+        <y-offset-m archive="y">1.5</y-offset-m>
+        <z-offset-m archive="y">-8.13</z-offset-m>
+        <pitch-offset-deg>0</pitch-offset-deg>
+        <default-field-of-view-deg>95</default-field-of-view-deg>
+      </config>
+    </view>
+
+    <view n="100">
+      <name>Rear Cockpit View</name>
+      <type>lookfrom</type>
+      <internal archive="y">true</internal>
+      <config>
+        <from-model type="bool">true</from-model>
+        <from-model-idx type="int">0</from-model-idx>
+        <ground-level-nearplane-m type="double">0.05f</ground-level-nearplane-m>
+        <default-field-of-view-deg type="double">55.0</default-field-of-view-deg>
+        <default-pitch-deg type="double">0</default-pitch-deg>
+        <default-heading-deg type="double">0</default-heading-deg>
+        <front-direction-deg type="double">0</front-direction-deg>
+        <front-left-direction-deg type="double">45</front-left-direction-deg>
+        <left-direction-deg type="double">90</left-direction-deg>
+        <back-left-direction-deg type="double">135</back-left-direction-deg>
+        <back-direction-deg type="double">180</back-direction-deg>
+        <back-right-direction-deg type="double">225</back-right-direction-deg>
+        <right-direction-deg type="double">270</right-direction-deg>
+        <front-right-direction-deg type="double">315</front-right-direction-deg>
+        <x-offset-m archive="y">0.0</x-offset-m>
+        <y-offset-m archive="y">1.6</y-offset-m>
+        <z-offset-m archive="y">-6.42</z-offset-m>
+        <pitch-offset-deg>0</pitch-offset-deg>
+        <default-field-of-view-deg>55</default-field-of-view-deg>
+      </config>
+    </view>
+
+    <view n="101">
+	   <name>Pilot cam</name>
+        <internal archive="y">false</internal>
+        <config>
+		 <from-model type="bool">true</from-model>
+      <from-model-idx type="int">0</from-model-idx>
+      <x-offset-m archive="y">0.0</x-offset-m>
+        <y-offset-m archive="y">1.5</y-offset-m>
+        <z-offset-m archive="y">-8.3</z-offset-m>
+          <pitch-offset-deg>0</pitch-offset-deg>
+		  <heading-offset-deg>180</heading-offset-deg>
+          <default-field-of-view-deg>95</default-field-of-view-deg>
+        </config>
+      </view>
+	
+	<view n="1">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="2">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="3">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="4">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="5">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="6">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+		
+		<view n="7">
+			<config>
+				<target-y-offset-m archive="y" type="double">1.0</target-y-offset-m>
+			</config>
+		</view>
+
+    <current-view>
+      <field-of-view>75.0</field-of-view>
+    </current-view>
+
+    <sound>
+      <audible>true</audible>
+      <path>Aircraft/BAC-TSR2-GR3/Sounds/sound.xml</path>
+    </sound>
+
+  
+
+    <hud>
+      <path n="1">Aircraft/BAC-TSR2-GR3/Hud/hud.xml</path>
+      <visibility n="1">true</visibility>
+   <palette>
+    <color n="0">
+     <alpha type="float">0.85</alpha>
+     <antialiased type="bool">true</antialiased>
+     <brightness type="float">0.85</brightness>
+     <transparent type="bool">true</transparent>
+     <red type="float">0.38</red>
+     <green type="float">1.0</green>
+     <blue type="float">0.22</blue>
+    </color>
+    <color n="1">
+     <alpha type="float">0.85</alpha>
+     <antialiased type="bool">true</antialiased>
+     <brightness type="float">0.85</brightness>
+     <transparent type="bool">true</transparent>
+     <red type="float">1.0</red>
+     <green type="float">0.2</green>
+     <blue type="float">0.0</blue>
+    </color>
+   </palette>
+    </hud>
+
+    <model>
+      <path>Aircraft/BAC-TSR2-GR3/Models/BAC-TSR2-GR3.xml</path>
+	  <livery>
+<file type="string"/>
+</livery>
+    </model>
+
+    <systems>
+      <autopilot>
+        <path>Aircraft/BAC-TSR2-GR3/Systems/autopilot3.xml</path>
+      </autopilot>
+<refuel>
+<type>probe</type>
+<serviceable type="bool">true</serviceable>
+</refuel>
+
+
+    </systems>
+
+<!--sub models -->
+    <submodels>
+      <serviceable type="bool">1</serviceable>
+      <path>Aircraft/BAC-TSR2-GR3/BAC-TSR2-submodels.xml</path>
+<path>Aircraft/BAC-TSR2-GR3/Models/weapons/loads.xml</path>
+
+    </submodels>
+	
+	<mp-systems>
+					<radar-enabled type="bool">true</radar-enabled>
+					<ecm-rwr-enabled type="bool">true</ecm-rwr-enabled>
+					<combat-enabled type="bool">true</combat-enabled>
+				</mp-systems>
+	
+	 <multiplay n="0">
+      <chat_display>1</chat_display>
+      <generic n="0">
+	
+        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+       
+	 <float n="8" alias="/engines/engine[0]/afterburner" /> <!-- Reheat Left Engine -->
+	 <float n="9" alias="/engines/engine[1]/afterburner" /> <!-- Reheat Right Engine -->
+	
+      </generic>
+    </multiplay>
+
+    
+<!-- The only certain info I've found concerning the flap
+     settings is that the landing deflection was 55 deg
+     and the take-off deflection was 35 deg.
+
+     Assuming that 55 deg corresponds to full deflection
+     (1.0) then 35 deg corresponds to 0.63.. (0.64).
+
+     The intermediate settings are pure guesswork.
+-->
+    <flaps>
+      <setting>0.00</setting>
+      <setting>0.08</setting>
+      <setting>0.16</setting>
+      <setting>0.32</setting>
+      <setting>0.48</setting>
+      <setting>0.64</setting>
+      <setting>0.82</setting>
+      <setting>1.00</setting>
+    </flaps>
+
+    <gui>
+      <dialogs>
+        <TFA-popup>
+          <config>
+            <dialog include="Dialogs/TFA-popup.xml"/>
+          </config>
+        </TFA-popup>
+      </dialogs>
+    </gui>
+
+<!-- AoA Indexer target 12.0 deg -->
+    <aoa-indexer>
+      <too-slow-deg>13.5</too-slow-deg>  <!-- target +1.5 deg -->
+      <slow-deg>12.5</slow-deg>          <!-- target +0.5 deg -->         
+      <fast-deg>11.5</fast-deg>          <!-- target -0.5 deg -->         
+      <too-fast-deg>10.5</too-fast-deg>  <!-- target -1.5 deg -->         
+    </aoa-indexer>
+
+    <help>
+      <title>BAC-TSR2-GR3</title>
+      <key>
+        <name>D/d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <key>
+        <name>}</name>
+        <desc>Start/Stop engines</desc>
+      </key>
+      
+    </help>
+
+
+<!-- Payload options --> 
+
+<weight n="0">
+<name>pylon1.L</name>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+<opt>
+<name>AIM-9 Sidewinder</name>
+<lbs>190.0</lbs>
+</opt>
+<opt>
+<name>AIM-7 Sparrow</name>
+<lbs>510.0</lbs>
+</opt>
+<opt>
+<name>AIM-120 AMRAAM</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>ALQ-101 ECM pod</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>AGM-65 Maverick</name>
+<lbs>670.0</lbs>
+</opt>
+<opt>
+<name>AGM-12 Bullpup</name>
+<lbs>1785.0</lbs>
+</opt>
+<opt>
+<name>AGM-84 Harpoon</name>
+<lbs>1523.0</lbs>
+</opt>
+
+<opt>
+<name>BAE ALARM</name>
+<lbs>590.0</lbs>
+</opt>
+
+<opt>
+<name>2xBAE ALARM</name>
+<lbs>1180.0</lbs>
+</opt>
+
+<opt>
+<name>AGM-45 Shrike</name>
+<lbs>390.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-16</name>
+<lbs>1000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-12</name>
+<lbs>500.0</lbs>
+</opt>
+<opt>
+<name>3xGBU-12</name>
+<lbs>1500.0</lbs>
+</opt>
+<opt>
+<name>2xMK82</name>
+<lbs>1000.0</lbs>
+</opt>
+<opt>
+<name>3xMK82</name>
+<lbs>1500.0</lbs>
+</opt>
+
+</weight>
+
+<weight n="1">
+<name>pylon2.L</name>
+<tank>7</tank>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+<opt>
+<name>Droptank</name>
+<lbs>100.0</lbs>
+<gals>411</gals>
+</opt>
+<opt>
+<name>Ferrytank</name>
+<lbs>100</lbs>
+<gals>1766</gals>
+</opt>
+<opt>
+<name>AIM-9 Sidewinder</name>
+<lbs>190.0</lbs>
+</opt>
+<opt>
+<name>AIM-7 Sparrow</name>
+<lbs>510.0</lbs>
+</opt>
+<opt>
+<name>AIM-120 AMRAAM</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>AGM-65 Maverick</name>
+<lbs>670.0</lbs>
+</opt>
+<opt>
+<name>3xAGM-65 Maverick</name>
+<lbs>2010.0</lbs>
+</opt>
+<opt>
+<name>AGM-12 Bullpup</name>
+<lbs>1785.0</lbs>
+</opt>
+<opt>
+<name>AGM-84 Harpoon</name>
+<lbs>1523.0</lbs>
+</opt>
+<opt>
+<name>2xAGM-84 Harpoon</name>
+<lbs>3036.0</lbs>
+</opt>
+<opt>
+<name>BAE ALARM</name>
+<lbs>590.0</lbs>
+</opt>
+<opt>
+<name>2xBAE ALARM</name>
+<lbs>1180.0</lbs>
+</opt>
+
+<opt>
+<name>BAE SEA EAGLE</name>
+<lbs>1279.0</lbs>
+</opt>
+
+<opt>
+<name>2x BAE SEA EAGLE</name>
+<lbs>2558.0</lbs>
+</opt>
+
+<opt>
+<name>AGM-154 JSW</name>
+<lbs>1095.0</lbs>
+</opt>
+<opt>
+<name>AGM-45 Shrike</name>
+<lbs>390.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-16</name>
+<lbs>1000.0</lbs>
+</opt>
+
+<opt>
+<name>2xGBU-16</name>
+<lbs>2000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-12</name>
+<lbs>500.0</lbs>
+</opt>
+<opt>
+<name>3xGBU-12</name>
+<lbs>1500.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-28</name>
+<lbs>5000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-31</name>
+<lbs>2036.0</lbs>
+</opt>
+<opt>
+<name>2xMK82</name>
+<lbs>1000.0</lbs>
+</opt>
+<opt>
+<name>3xMK82</name>
+<lbs>1500.0</lbs>
+</opt>
+<opt>
+<name>2xWE177B</name>
+<lbs>2015.0</lbs>
+</opt>
+
+</weight>
+
+
+
+
+
+<weight n="2">
+<name>BombBay</name>
+<tank>8</tank>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+
+<opt>
+<name>Bay Droptank</name>
+<lbs>70.0</lbs>
+<gals>570</gals>
+</opt>
+<opt>
+<name>2xBAE ALARM</name>
+<lbs>1180.0</lbs>
+</opt>
+<opt>
+<name>4x-MK-82</name>
+<lbs>2000</lbs>
+</opt>
+<opt>
+<name>6x-MK-82</name>
+<lbs>3000</lbs>
+</opt>
+<opt>
+<name>4x-WE177B</name>
+<lbs>4030.0</lbs>
+</opt>
+<opt>
+<name>RedBeard</name>
+<lbs>1750.0</lbs>
+</opt>
+<opt>
+<name>2xGBU-10</name>
+<lbs>4000</lbs>
+</opt>
+<opt>
+<name>2xGBU-16</name>
+<lbs>2000</lbs>
+</opt>
+
+<opt>
+<name>2GBU-12</name>
+<lbs>100.0</lbs>
+</opt>
+
+<opt>
+<name>2xAGM-154 JSW</name>
+<lbs>2190.0</lbs>
+</opt>
+
+<opt>
+<name>2xGBU-31</name>
+<lbs>4072.0</lbs>
+</opt>
+<opt>
+<name>3xMK82</name>
+<lbs>1500.0</lbs>
+</opt>
+</weight>
+
+
+
+
+<weight n="3">
+<name>pylon2.R</name>
+<tank>9</tank>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+<opt>
+<name>Droptank</name>
+<lbs>100.0</lbs>
+<gals>411</gals>
+</opt>
+<opt>
+<name>Ferrytank</name>
+<lbs>100</lbs>
+<gals>1766</gals>
+</opt>
+<opt>
+<name>AIM-9 Sidewinder</name>
+<lbs>190.0</lbs>
+</opt>
+<opt>
+<name>AIM-7 Sparrow</name>
+<lbs>510.0</lbs>
+</opt>
+<opt>
+<name>AIM-120 AMRAAM</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>AGM-65 Maverick</name>
+<lbs>670.0</lbs>
+</opt>
+<opt>
+<name>3xAGM-65 Maverick</name>
+<lbs>2010.0</lbs>
+</opt>
+<opt>
+<name>AGM-12 Bullpup</name>
+<lbs>1785.0</lbs>
+</opt>
+<opt>
+<name>AGM-84 Harpoon</name>
+<lbs>1523.0</lbs>
+</opt>
+<opt>
+<name>2xAGM-84 Harpoon</name>
+<lbs>3036.0</lbs>
+</opt>
+<opt>
+<name>BAE ALARM</name>
+<lbs>590.0</lbs>
+</opt>
+<opt>
+<name>2xBAE ALARM</name>
+<lbs>1180.0</lbs>
+</opt>
+
+<opt>
+<name>BAE SEA EAGLE</name>
+<lbs>1279.0</lbs>
+</opt>
+
+<opt>
+<name>2x BAE SEA EAGLE</name>
+<lbs>2558.0</lbs>
+</opt>
+
+<opt>
+<name>AGM-154 JSW</name>
+<lbs>1095.0</lbs>
+</opt>
+
+<opt>
+<name>AGM-45 Shrike</name>
+<lbs>390.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-16</name>
+<lbs>1000</lbs>
+</opt>
+
+<opt>
+<name>2xGBU-16</name>
+<lbs>2000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-12</name>
+<lbs>500.0</lbs>
+</opt>
+<opt>
+<name>3xGBU-12</name>
+<lbs>1500.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-28</name>
+<lbs>5000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-31</name>
+<lbs>2036.0</lbs>
+</opt>
+
+<opt>
+<name>2xMK82</name>
+<lbs>1000.0</lbs>
+</opt>
+
+<opt>
+<name>3xMK82</name>
+<lbs>1500.0</lbs>
+</opt>
+
+<opt>
+<name>2xWE177B</name>
+<lbs>2015.0</lbs>
+</opt>
+
+</weight>
+
+
+
+
+<weight n="4">
+<name>pylon1.R</name>
+<weight-lb>0</weight-lb>
+<selected>none</selected>
+<opt>
+<name>none</name>
+<lbs>0</lbs>
+</opt>
+<opt>
+<name>AIM-9 Sidewinder</name>
+<lbs>190.0</lbs>
+</opt>
+<opt>
+<name>AIM-7 Sparrow</name>
+<lbs>510.0</lbs>
+</opt>
+<opt>
+<name>AIM-120 AMRAAM</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>ALQ-101 ECM pod</name>
+<lbs>335.0</lbs>
+</opt>
+<opt>
+<name>AGM-65 Maverick</name>
+<lbs>670.0</lbs>
+</opt>
+<opt>
+<name>AGM-12 Bullpup</name>
+<lbs>1785.0</lbs>
+</opt>
+<opt>
+<name>AGM-84 Harpoon</name>
+<lbs>1523.0</lbs>
+</opt>
+<opt>
+<name>BAE ALARM</name>
+<lbs>590.0</lbs>
+</opt>
+<opt>
+<name>2xBAE ALARM</name>
+<lbs>1180.0</lbs>
+</opt>
+
+<opt>
+<name>AGM-45 Shrike</name>
+<lbs>390.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-16</name>
+<lbs>1000.0</lbs>
+</opt>
+
+<opt>
+<name>GBU-12</name>
+<lbs>500.0</lbs>
+</opt>
+
+<opt>
+<name>3xGBU-12</name>
+<lbs>1500.0</lbs>
+</opt>
+
+<opt>
+<name>2xMK82</name>
+<lbs>1000.0</lbs>
+</opt>
+
+
+<opt>
+<name>3xMK82</name>
+<lbs>1500.0</lbs>
+</opt>
+</weight>
+
+
+<menubar include="Dialogs/TSR2-menu.xml"/>
+
+</sim>
+
+<systems>
+<refuel>
+<type>probe</type>
+<serviceable type="bool">true</serviceable>
+</refuel>
+</systems> 
+
+
+<!-- set up control properties for YASim -->
+  <controls>
+    <armament>
+      <station n="0">
+        <release type="bool">false</release>
+      </station>
+      <station n="1">
+        <release type="bool">false</release>
+      </station>
+      <station n="2">
+        <release type="bool">false</release>
+      </station>
+      <station n="3">
+        <release type="bool">false</release>
+      </station>
+      <station n="4">
+        <release type="bool">false</release>
+      </station>
+           
+    </armament>
+<!-- Start with the Parking Brake on -->
+  
+    <gear>
+      <brake-parking type="double">1.0</brake-parking>
+    </gear>
+  
+  </controls>
+
+
+
+
+<environment>
+<turbulence>
+<use-cloud-turbulence>true</use-cloud-turbulence>
+</turbulence>
+</environment>
+
+
+<!-- Keboard changes -->
+ <input>
+<keyboard include="Nasal/keyboard.xml"/>
+</input>
+
+
+  <ai>
+    <submodels>
+      <trajectory-markers type="bool">0</trajectory-markers>
+    </submodels>
+  </ai>
+
+<!-- Autopilot -->
+<!--  <autopilot>
+    <settings>
+     <target-agl-ft type="float">200</target-agl-ft>
+      <target-altitude-ft type="float">3000</target-altitude-ft>
+      <target-pitch-deg type="float">0</target-pitch-deg>
+      <target-aoa-deg type="float">0</target-aoa-deg>
+      <target-roll-deg type="float">0</target-roll-deg>
+      <target-climb-rate-fps type="float">0</target-climb-rate-fps>
+      <ground-roll-heading-deg type="float">-999.9</ground-roll-heading-deg>
+      <target-speed-kt type="float">350.0</target-speed-kt>
+      <target-mach type="float">0.86</target-mach>
+      <approach-aoa-deg type="float">12.0</approach-aoa-deg>
+      <rotate-speed-kt type="float">110.0</rotate-speed-kt>
+      <rotate-deg type="float">13.0</rotate-deg>
+    </settings> -->
+<!--
+  <locks>
+      <pitch type="string">initialised</pitch>
+      <roll type="string">initialised</roll>
+      <altitude type="string">initialised</altitude>
+      <heading type="string">initialised</heading>
+      <auto-takeoff type="string">enabled</auto-takeoff>
+      <auto-landing type="string">enabled</auto-landing>
+      <rudder type="string">initialised</rudder>
+      <aoa type="string">initialised</aoa>
+    </locks> 
+    
+  </autopilot> -->
+
+
+<!-- Engine indexes -->
+  <engines>
+    <engine n="0">
+      <engine-num type="int">0</engine-num>
+    </engine>
+    <engine n="1">
+      <engine-num type="int">1</engine-num>
+    </engine>
+  </engines>
+
+<!-- Fuel Tank indexes -->
+  <consumables>
+    <fuel>
+      <tank n="0">
+        <tank-num type="int">0</tank-num>
+      </tank>
+      <tank n="1">
+        <tank-num type="int">1</tank-num>
+      </tank>
+      <tank n="2">
+        <tank-num type="int">2</tank-num>
+      </tank>
+<tank n="3">
+        <tank-num type="int">3</tank-num>
+      </tank>
+<tank n="4">
+        <tank-num type="int">4</tank-num>
+      </tank>
+<tank n="5">
+        <tank-num type="int">5</tank-num>
+      </tank>
+<tank n="6">
+        <tank-num type="int">6</tank-num>
+      </tank>
+<tank n="7">
+        <name>Left-tank</name>
+        <selected type="bool">false</selected>
+      </tank>
+      <tank n="8">
+        <name>Centre-Tank</name>
+        <selected type="bool">false</selected>
+      </tank>
+      <tank n="9">
+        <name>Right-Tank</name>
+        <selected type="bool">false</selected>
+      </tank>
+
+
+    </fuel>
+  </consumables>
+
+  <instrumentation>
+  
+   <ground-radar>
+   <range type="int">50</range>
+   <powered type="bool">true</powered>
+   <display-brightness type="double">1</display-brightness>
+  </ground-radar>
+
+<rwr>
+<display-lighting-intens type="double">0.4</display-lighting-intens>
+<symbology-lighting-intens type="double">1</symbology-lighting-intens>
+</rwr>
+
+<enav><selected type="int">3</selected></enav>
+<radar>
+      <range type="int" archive="y">20</range>
+      <range-factor type="double" archive="n">0.001888</range-factor>
+      <minimized type="bool" archive="y">false</minimized>
+      <selected type="int">3</selected>
+
+
+      <!-- inicio en pruebas -->
+	<enabled type="bool">true</enabled>
+	<az-field type="double">120</az-field>
+	<range type="double">150</range>
+	<range-selected type="double">50</range-selected>
+	<radar2-range type="double">150</radar2-range>
+	<display-rdr type="bool">true</display-rdr>
+	<radar-standby type="int">3</radar-standby>
+	<mode>
+	    <rws type="bool">true</rws>
+	    <tws-auto type="bool">false</tws-auto>
+	</mode>
+
+ </radar> 
+
+    <terrain-radar>
+      <hi-elev>
+        <alt-ft type="double">-9999.9</alt-ft>
+        <lat-deg type="double">-9999.9</lat-deg>
+        <lon-deg type="double">-9999.9</lon-deg>
+        <dist-m type="double">-9999.9</dist-m>
+        <collision-status type="string">initialised</collision-status>
+      </hi-elev>
+      <settings>
+        <mode type="string">extend</mode>
+        <state type="string">off</state>
+        <range-m type="double">2500</range-m>
+        <step-m type="double">250</step-m>
+        <max-climb-rate-fps type="double">120</max-climb-rate-fps>
+        <hi-elev-markers type="bool">false</hi-elev-markers>
+      </settings>
+    </terrain-radar>
+  </instrumentation>
+
+<nasal>
+
+<doors>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/doors.nas</file>
+</doors>
+
+<TSR2>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-startup.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-dropview.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-trajectory-markers.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-auto-takeoff.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-auto-landing.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-altitude-hold-monitor.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-heading-hold-monitor.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-yaw-monitor.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/BAC-TSR2-tfa.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/light.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/liveries.nas</file>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/doors.nas</file>
+</TSR2>
+
+<low>
+<file>Aircraft/BAC-TSR2-GR3/Nasal/low.nas</file>
+</low>
+
+<enav>
+      <file>Aircraft/BAC-TSR2-GR3/Nasal/enav.nas</file>
+</enav> 
+
+<rwr>
+<file>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/rwr/rwr.nas</file>
+
+</rwr>
+
+<radar>
+     <!-- <file>Aircraft/BAC-TSR2-GR3/Nasal/radar.nas</file> -->
+<file>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Radar/radar.nas</file> 
+    </radar>
+<aar>
+<file>Aircraft/Generic/aar.nas</file>
+</aar>
+<engines>
+   <file>Aircraft/BAC-TSR2-GR3/Nasal/generic-yasim-engine.nas</file>
+  </engines>
+  
+  <emu>
+   <file>Aircraft/BAC-TSR2-GR3/Nasal/emu.nas</file>
+  </emu>
+ <groundradar>
+	 <file>Aircraft/BAC-TSR2-GR3/Nasal/ground-radar.nas</file>
+	</groundradar>
+	
+	<fuel>
+   <file>Aircraft/BAC-TSR2-GR3/Nasal/fuel.nas</file>
+  </fuel>
+
+  </nasal>
+
+</PropertyList>

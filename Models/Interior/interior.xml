@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<!-- FCanopy -->
+ <animation>   
+<type>rotate</type>
+  <object-name>F-Canopy-Surround</object-name>
+  <property>instrumentation/doors/crew/position-norm</property>
+<interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 60 </dep></entry>
+    </interpolation>
+
+  <center>
+   <x-m>-7.20</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.84</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+
+
+ <animation>
+  <type>rotate</type>
+  <object-name>F-Canopy-Windows</object-name>
+ <property>instrumentation/doors/crew/position-norm</property>
+<interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 60 </dep></entry>
+    </interpolation>
+
+  <center>
+   <x-m>-7.20</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.84</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+<!-- BCanopy  -->
+<animation>
+  <type>rotate</type>
+  <object-name>R-Canopy-Surround</object-name>
+  <property>instrumentation/doors/crew/position-norm</property>
+<interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 60 </dep></entry>
+    </interpolation>
+   <center>
+   <x-m>-5.50</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.95</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+<animation>
+  <type>rotate</type>
+  <object-name>R-Canopy-Windows</object-name>
+  <property>instrumentation/doors/crew/position-norm</property>
+<interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 60 </dep></entry>
+    </interpolation>
+   <center>
+   <x-m>-5.50</x-m>
+   <y-m>0.0</y-m>
+   <z-m>1.95</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+
+  
+  <!-- Dash-->
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> 0.3 </x-m>
+      <y-m> -0.01 </y-m>
+      <z-m> 0.45</z-m>
+<pitch-deg>-1.15</pitch-deg>
+
+    </offsets>
+  </model>
+
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/instruments.xml</path>
+    <offsets>
+      <x-m> -5.08 </x-m>
+      <y-m> -0.01 </y-m>
+      <z-m> 1.205</z-m>
+<pitch-deg>-1.5</pitch-deg>
+
+    </offsets>
+  </model>
+
+
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/divers/stick.xml</path>
+    <offsets>
+      <x-m> -8.3</x-m>
+      <y-m> -00 </y-m>
+      <z-m> 0.6 </z-m>
+      <pitch-deg>-0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/divers/pedals.xml</path>
+    <offsets>
+      <x-m> -3.6 </x-m>
+      <y-m> -00 </y-m>
+      <z-m> -0.50 </z-m>
+      <pitch-deg>-0</pitch-deg>
+    </offsets>
+  </model>
+  
+  
+
+  <!-- Canopy   <animation>
+    <type>rotate</type>
+    <object-name>intverriere</object-name>
+    <property>instrumentation/doors/crew/position-norm</property>
+    <interpolation>
+      <entry><ind> 0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1 </ind><dep> 60 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -2.148 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.642 </z-m>
+    </center>
+    <axis>
+      <x>  0 </x>
+      <y>  1 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>  -->
+
+
+</PropertyList>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+	<path>WE177B.ac</path>
+	<animation>
+    <type>select</type>
+    <object-name>WE177B</object-name>
+    <condition>
+      <and>
+        <greater-than>
+          <property>controls/doors/bb-door-pos-norm</property>
+          <value>0.05</value>
+        </greater-than>
+        <equals>
+          <property>controls/armament/triggerwe177b</property>
+          <value>false</value>
+        </equals>
+        <equals>
+          <property>sim/armament</property>
+          <value>WE177B</value>
+        </equals>
+      </and>
+    </condition>
+  
+	</animation>
+	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>10000</max-m>
+	</animation>
+</PropertyList>

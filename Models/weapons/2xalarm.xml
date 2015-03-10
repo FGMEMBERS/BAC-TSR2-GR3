@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <path>2xALARM.ac</path>
+
+  <animation>
+    <object-name>2xAlarm</object-name>
+  </animation>
+
+</PropertyList>

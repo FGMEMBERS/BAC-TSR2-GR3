@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+  <PropertyList> 
+    <path>mfd.ac</path>
+
+ <panel>
+  <path>Aircraft/BAC-TSR2-GR3/Models/interior/Panel/Instruments/mfd/mfd1-hotspots.xml</path>
+  <bottom-left>
+   <x-m>0.02</x-m>
+   <y-m>-0.1</y-m>
+   <z-m>-0.1</z-m>
+  </bottom-left>
+  <bottom-right>
+   <x-m>0.02</x-m>
+   <y-m>0.1</y-m>
+   <z-m>-0.1</z-m>
+  </bottom-right>
+  <top-left>
+   <x-m>0.02</x-m>
+   <y-m>-0.1</y-m>
+   <z-m> 0.1</z-m>
+  </top-left>
+ </panel>
+
+	<model>
+		<name>enav</name>
+    <path>Aircraft/BAC-TSR2-GR3/Models/interior/Panel/Instruments/mfd/enav.xml</path>
+    <offsets> 
+      <x-m>0.015</x-m>
+      <y-m>-0.001</y-m>
+      <z-m>0.006</z-m>
+
+    </offsets>
+	</model>
+
+	<animation>
+	  <type>scale</type>
+	  <object-name>enav</object-name>
+
+	  <x-factor>1.0</x-factor>
+	  <x-offset>1.0</x-offset>
+	  <y-factor>1.0</y-factor>
+	  <y-offset>1.4</y-offset>
+	  <z-factor>1.0</z-factor>
+	  <z-offset>1.4</z-offset>
+	  <center>
+	   <x-m>0.0</x-m>
+	   <y-m>0.0</y-m>
+	   <z-m>0.0</z-m>
+	  </center>
+	 </animation>
+
+  </PropertyList>

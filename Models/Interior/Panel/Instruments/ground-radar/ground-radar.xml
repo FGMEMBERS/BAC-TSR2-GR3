@@ -1,0 +1,74 @@
+
+<PropertyList>
+
+ <path>ground-radar.ac</path>
+ 
+ <effect>
+   <inherits-from>Effects/model-transparent</inherits-from>
+   <condition>
+    <property>/sim/rendering/rembrandt/enabled</property>
+   </condition>
+  <object-name>sweep</object-name>
+  <object-name>marker</object-name>
+ </effect>
+ 
+ <model>
+  <name>ground</name>
+  <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/ground-radar/MovingMap/terrain-map-pixel.xml</path>
+  <offsets>
+   <x-m>0.0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+   <pitch-deg>0</pitch-deg>
+   <heading-deg>0</heading-deg>
+  </offsets>
+ </model>
+ 
+ <animation>
+  <object-name>marker</object-name>
+  <object-name>sweep</object-name>
+  <type>spin</type>
+  <property>/instrumentation/ground-radar/display-brightness</property>
+  <factor>25</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <object-name>sweep</object-name>
+  <type>rotate</type>
+  <property>/instrumentation/ground-radar/sweep-position</property>
+  <factor>360</factor>
+  <center>
+   <x-m>-0.03696</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ 
+ <animation>
+  <type>material</type>
+  <object-name>ground</object-name>
+  <object-name>marker</object-name>
+  <emission>
+    <red>1</red>
+    <green>1</green>
+    <blue>1</blue>
+	<factor-prop>/instrumentation/ground-radar/display-brightness</factor-prop>
+  </emission>
+ </animation>
+ 
+</PropertyList>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <!-- Instruments -->
+ 	<animation>
+		<type>range</type>
+		<min-m>0</min-m>
+		<max-m>55</max-m>
+	</animation> 
+  
+  
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/HUD/optical-sight.xml</path>
+    <offsets>
+      <x-m> -3.41 </x-m>
+      <y-m> 0.02 </y-m>
+      <z-m> 0.242 </z-m>
+      <pitch-deg>-10</pitch-deg>
+    </offsets>
+  </model>  
+
+  <model>
+    <path>Aircraft/Instruments-3d/standby-adi/stdby-adi.xml</path>
+    <offsets>
+      <x-m> -3.345 </x-m>
+      <y-m> -0.112 </y-m>
+      <z-m> 0.195 </z-m>
+<pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/clock/clock.xml</path>
+    <offsets>
+       <x-m> -3.34 </x-m>
+      <y-m> -0.29 </y-m>
+      <z-m> 0.11 </z-m>
+      <pitch-deg>-3</pitch-deg>
+
+    </offsets>
+  </model>
+
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/HSI/hsi.xml</path>
+    <offsets>
+      <x-m> -3.32 </x-m>
+      <y-m> -0.12 </y-m>
+      <z-m> 0.04 </z-m>
+      <pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/GMeter/gmeter.xml</path>
+    <offsets>
+      <x-m> -3.34 </x-m>
+      <y-m> -0.195 </y-m>
+      <z-m> 0.19 </z-m>
+      <pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+
+  
+  <model>
+    <path>Aircraft/Instruments-3d/altimeter/altimeter.xml</path>
+    <offsets>
+      <x-m> -3.33 </x-m>
+      <y-m> -0.12 </y-m>
+      <z-m> 0.125 </z-m>
+<pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/asi/airspeed.xml</path>
+    <offsets>
+      <x-m> -3.345 </x-m>
+      <y-m> -0.21 </y-m>
+      <z-m> 0.11 </z-m>
+<pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/rpm/rpm-1.xml</path>
+    <offsets>
+      <x-m> -3.325 </x-m>
+      <y-m> 0.13 </y-m>
+      <z-m> 0.15 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/rpm/rpm-2.xml</path>
+    <offsets>
+      <x-m> -3.325 </x-m>
+      <y-m> 0.19 </y-m>
+      <z-m> 0.15 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/egt/exh1.xml</path>
+    <offsets>
+      <x-m> -3.320 </x-m>
+      <y-m> 0.13 </y-m>
+      <z-m> 0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/egt/exh2.xml</path>
+    <offsets>
+      <x-m> -3.320 </x-m>
+      <y-m> 0.19 </y-m>
+      <z-m> 0.095 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/epr/eprL.xml</path>
+    <offsets>
+      <x-m> -3.310 </x-m>
+      <y-m> 0.13 </y-m>
+      <z-m> 0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/epr/eprR.xml</path>
+    <offsets>
+      <x-m> -3.310 </x-m>
+      <y-m> 0.19 </y-m>
+      <z-m> 0.03 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Trim/trimelevator.xml</path>
+    <offsets>
+      <x-m> -3.318 </x-m>
+      <y-m> -0.36 </y-m>
+      <z-m> 0.02</z-m>
+      <pitch-deg>-3</pitch-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/flightindicator/flight-indicator.xml</path>
+    <offsets>
+       <x-m> -3.318 </x-m>
+      <y-m> -0.295 </y-m>
+      <z-m> 0.02</z-m>
+      <pitch-deg>-3</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/oilpressure/oilpressureL.xml</path>
+    <offsets>
+      <x-m> -3.18 </x-m>
+      <y-m> -0.40 </y-m>
+      <z-m> -0.202</z-m>
+      <pitch-deg>-38</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/oilpressure/oilpressureR.xml</path>
+    <offsets>
+      <x-m> -3.18 </x-m>
+      <y-m> -0.345 </y-m>
+      <z-m> -0.202</z-m>
+      <pitch-deg>-38</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuelflow/FF.xml</path>
+    <offsets>
+      <x-m> -3.23 </x-m>
+      <y-m> -0.29 </y-m>
+       <z-m> -0.148</z-m>
+
+      <pitch-deg>-38</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/percentfuel/percentfuel.xml</path>
+    <offsets>
+      <x-m> -3.237 </x-m>
+     <y-m> -0.345 </y-m>
+     <z-m> -0.148</z-m>
+
+      <pitch-deg>-38</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> -3.315 </x-m>
+      <y-m> -0.21 </y-m>
+      <z-m> 0.04 </z-m>
+      <pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/mfd/mfd1.xml</path>
+    <offsets>
+      <x-m> -3.33</x-m>
+      <y-m> 0.01</y-m>
+      <z-m> 0.07 </z-m>
+      <pitch-deg>-8</pitch-deg>
+    </offsets>
+  </model>
+
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel.xml</path>
+    <offsets>
+     <x-m> -3.305 </x-m>
+      <y-m> -0.40 </y-m>
+      <z-m> -0.058</z-m>
+      <pitch-deg>-38</pitch-deg>
+      </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel1.xml</path>
+    <offsets>
+      <x-m> -3.305 </x-m>
+      <y-m> -0.345 </y-m>
+      <z-m> -0.058</z-m>
+      <pitch-deg>-38</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel2.xml</path>
+    <offsets>
+      <x-m> -3.305 </x-m>
+      <y-m> -0.29 </y-m>
+      <z-m> -0.058</z-m>
+      <pitch-deg>-38</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel3.xml</path>
+    <offsets>
+     <x-m> -3.27 </x-m>
+      <y-m> -0.40 </y-m>
+      <z-m> -0.1</z-m>
+      <pitch-deg>-38</pitch-deg>
+
+
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel4.xml</path>
+    <offsets>
+      <x-m> -3.27 </x-m>
+      <y-m> -0.345 </y-m>
+      <z-m> -0.1</z-m>
+      <pitch-deg>-38</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel5.xml</path>
+    <offsets>
+      <x-m> -3.27 </x-m>
+      <y-m> -0.29 </y-m>
+      <z-m> -0.1</z-m>
+      <pitch-deg>-38</pitch-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Fuel/fuel6.xml</path>
+    <offsets>
+      <x-m> -3.235 </x-m>
+      <y-m> -0.40 </y-m>
+      <z-m> -0.148</z-m>
+      <pitch-deg>-38</pitch-deg>
+    </offsets>
+  </model>
+
+
+
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Radar/radar.xml</path>
+    <offsets>
+      <x-m> -3.325</x-m>
+      <y-m> 0.3</y-m>
+      <z-m> 0.07</z-m>
+      <pitch-deg>-2</pitch-deg>
+<roll-deg>0</roll-deg>
+
+
+    </offsets>
+  </model> 
+
+<!--
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/rwr/rwr.xml</path>
+    <offsets>
+      <x-m> -3.33</x-m>
+      <y-m> 0.25</y-m>
+      <z-m> 0.22 </z-m>
+      <pitch-deg>0</pitch-deg>
+<roll-deg>-40</roll-deg>
+<yaw-deg>-90</yaw-deg>
+
+    </offsets>
+  </model> -->
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/uhf-box/uhf-box.xml</path>
+    <offsets>
+      <x-m> -3.306</x-m>
+      <y-m> 0.01</y-m>
+      <z-m> -0.065 </z-m>
+      <pitch-deg>-5</pitch-deg>
+    </offsets>
+  </model>
+
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/sas/A-10-sas.xml</path>
+    <offsets>
+      <x-m> -3.285 </x-m>
+      <y-m> 0.32</y-m>
+      <z-m> -0.04</z-m>
+      <pitch-deg>52</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/tacan/tacan.xml</path>
+    <offsets>
+      <x-m> -3.235 </x-m>
+      <y-m> 0.32</y-m>
+      <z-m> -0.1</z-m>
+      <pitch-deg>52</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/ils/A-10-ils.xml</path>
+    <offsets>
+      <x-m> -3.195 </x-m>
+      <y-m> 0.32</y-m>
+      <z-m> -0.15</z-m>
+      <pitch-deg>52</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/lights/light-left-panel.xml</path>
+    <offsets>
+      <x-m> -3.06 </x-m>
+      <y-m> 0.35</y-m>
+      <z-m> -0.248</z-m>
+      <pitch-deg>-1</pitch-deg>
+<roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+  
+  
+  <!-- Back seat -->
+  
+  
+<model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/Radar/radar.xml</path>
+    <offsets>
+      <x-m> -1.95</x-m>
+      <y-m>0.008</y-m>
+      <z-m> 0.3</z-m>
+      <pitch-deg>-2</pitch-deg>
+<roll-deg>0</roll-deg>
+
+
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/ground-radar/ground-radar.xml</path>
+    <offsets>
+      <x-m> -1.98</x-m>
+      <y-m>0</y-m>
+      <z-m> 0.17</z-m>
+      <pitch-deg>-2</pitch-deg>
+<roll-deg>0</roll-deg>
+
+
+    </offsets>
+  </model> 
+  
+   <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/mission-screen/wso_mfd-l-gr.xml</path>
+    <offsets>
+      <x-m> -1.965</x-m>
+      <y-m> -0.19</y-m>
+      <z-m> 0.22</z-m>
+      <pitch-deg>-2</pitch-deg>
+<roll-deg>0</roll-deg>
+
+
+    </offsets>
+  </model> 
+  
+   <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/mission-screen/wso_mfd-r-gr.xml</path>
+    <offsets>
+      <x-m> -1.965</x-m>
+      <y-m> 0.19</y-m>
+      <z-m> 0.22</z-m>
+      <pitch-deg>-2</pitch-deg>
+<roll-deg>0</roll-deg>
+
+
+    </offsets>
+  </model> 
+  
+  <model>
+    <path>Aircraft/Instruments-3d/standby-adi/stdby-adi.xml</path>
+    <offsets>
+      <x-m> -1.964</x-m>
+      <y-m> 0</y-m>
+      <z-m> 0.44</z-m>
+<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+    <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+       <x-m> -1.967</x-m>
+      <y-m> 0.08</y-m>
+      <z-m> 0.426</z-m>
+<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+  <model>
+    <path>Aircraft/BAC-TSR2-GR3/Models/Interior/Panel/Instruments/asi/airspeed2.xml</path>
+    <offsets>
+     <x-m> -1.98</x-m>
+      <y-m> -0.07</y-m>
+      <z-m> 0.429</z-m>
+<pitch-deg>0</pitch-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>
+
