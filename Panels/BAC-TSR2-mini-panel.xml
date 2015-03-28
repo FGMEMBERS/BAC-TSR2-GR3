@@ -50,7 +50,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
 <!-- Throttles -->
 
 
-  <instrument include="Instruments/throttle-quadrant.xml">
+  <instrument include="Aircraft/Instruments/throttle-quadrant.xml">
    <name>Engine 0 throttle quadrant</name>
    <params>
     <engine-throttle-select>/controls/engines/engine[0]/throttle</engine-throttle-select>
@@ -61,7 +61,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>40</h>
   </instrument>
 
-  <instrument include="Instruments/throttle-quadrant.xml">
+  <instrument include="Aircraft/Instruments/throttle-quadrant.xml">
    <name>Engine 1 throttle quadrant</name>
    <params>
     <engine-throttle-select>/controls/engines/engine[1]/throttle</engine-throttle-select>
@@ -72,7 +72,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>40</h>
   </instrument>
 
-  <instrument include="Instruments/flap-quadrant.xml">
+  <instrument include="Aircraft/Instruments/flap-quadrant.xml">
    <name>Single Step Flap quadrant</name>
    <params>
     <flaps-select>/controls/flight/flaps</flaps-select>
@@ -83,7 +83,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>40</h>
   </instrument>
 
-  <instrument include="Instruments/reheat-quadrant.xml">
+  <instrument include="Aircraft/Instruments/reheat-quadrant.xml">
    <name>Engine 0 reheat quadrant</name>
    <params>
     <engine-reheat-select>/controls/engines/engine[0]/afterburner</engine-reheat-select>
@@ -94,7 +94,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>40</h>
   </instrument>
 
-  <instrument include="Instruments/reheat-quadrant.xml">
+  <instrument include="Aircraft/Instruments/reheat-quadrant.xml">
    <name>Engine 1 reheat quadrant</name>
    <params>
     <engine-reheat-select>/controls/engines/engine[1]/afterburner</engine-reheat-select>
@@ -110,7 +110,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
 <!-- controls visual feedback cluster -->
 
 
-  <instrument include="Instruments/brakes.xml">
+  <instrument include="Aircraft/Instruments/brakes.xml">
    <name>Brake Indicator Light</name>
    <x>18</x>
    <y>130</y>
@@ -118,7 +118,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>15</h>
   </instrument>
 
-  <instrument include="Instruments/gear-indicator.xml">
+  <instrument include="Aircraft/Instruments/gear-indicator.xml">
    <name>Gear Indicator Light</name>
    <x>58</x>
    <y>130</y>
@@ -126,7 +126,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>14</h>
   </instrument>
 
-  <instrument include="Instruments/controls.xml">
+  <instrument include="Aircraft/Instruments/controls.xml">
    <name>Control Position Indicators</name>
    <x>38</x>
    <y>70</y>
@@ -136,7 +136,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
 
 <!-- end controls visual feedback cluster -->
 
-  <instrument include="Instruments/attitude-indicator.xml">
+  <instrument include="Aircraft/Instruments/attitude-indicator.xml">
    <name>Attitude Gyro</name>
    <x>103</x>
    <y>100</y>
@@ -144,7 +144,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>65</h>
   </instrument>
 
-  <instrument include="Instruments/turn.xml">
+  <instrument include="Aircraft/Instruments/turn.xml">
    <name>Turn Coordinator</name>
    <x>166</x>
    <y>100</y>
@@ -152,7 +152,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>65</h>
   </instrument>
 
-  <instrument include="Instruments/hsi.xml">
+  <instrument include="Aircraft/Instruments/hsi.xml">
    <name>Horizontal Situation Indicator</name>
    <x>103</x>
    <y>35</y>
@@ -160,7 +160,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>65</h>
   </instrument>
 
-  <instrument include="Instruments/aoa-indexer.xml">
+  <instrument include="Aircraft/Instruments/aoa-indexer.xml">
    <name>AoAI</name>
    <x>60</x>
    <y>70</y>
@@ -170,7 +170,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
 
 <!-- Digital instruments -->
 
-  <instrument include="Instruments/digital-alt.xml">
+  <instrument include="Aircraft/Instruments/digital-alt.xml">
    <name>Altitude display</name>
    <x>350</x>
    <y>130</y>
@@ -178,7 +178,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-agl.xml">
+  <instrument include="Aircraft/Instruments/digital-agl.xml">
    <name>Elevation AGL display</name>
    <x>350</x>
    <y>113</y>
@@ -186,7 +186,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-vsi.xml">
+  <instrument include="Aircraft/Instruments/digital-vsi.xml">
    <name>Vsi display</name>
    <x>350</x>
    <y>96</y>
@@ -194,7 +194,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-aoa.xml">
+  <instrument include="Aircraft/Instruments/digital-aoa.xml">
    <name>AoA display</name>
    <x>350</x>
    <y>79</y>
@@ -202,7 +202,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-accl.xml">
+  <instrument include="Aircraft/Instruments/digital-accl.xml">
    <name>Accel display</name>
    <x>350</x>
    <y>62</y>
@@ -210,7 +210,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-kias.xml">
+  <instrument include="Aircraft/Instruments/digital-kias.xml">
    <name>KIAS display</name>
    <x>350</x>
    <y>45</y>
@@ -218,7 +218,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-mach.xml">
+  <instrument include="Aircraft/Instruments/digital-mach.xml">
    <name>Mach display</name>
    <x>350</x>
    <y>28</y>
@@ -226,7 +226,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-wgt.xml">
+  <instrument include="Aircraft/Instruments/digital-wgt.xml">
    <name>Weight display</name>
    <x>553</x>
    <y>88</y>
@@ -234,7 +234,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-fuel-tot.xml">
+  <instrument include="Aircraft/Instruments/digital-fuel-tot.xml">
    <name>Fuel tot display</name>
    <x>451</x>
    <y>106</y>
@@ -242,7 +242,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>64</h>
   </instrument>
 
-  <instrument include="Instruments/digital-pitch.xml">
+  <instrument include="Aircraft/Instruments/digital-pitch.xml">
    <name>Pitch display</name>
    <x>248</x>
    <y>130</y>
@@ -250,7 +250,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-roll.xml">
+  <instrument include="Aircraft/Instruments/digital-roll.xml">
    <name>Roll display</name>
    <x>248</x>
    <y>113</y>
@@ -258,7 +258,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-yaw.xml">
+  <instrument include="Aircraft/Instruments/digital-yaw.xml">
    <name>Yaw display</name>
    <x>248</x>
    <y>96</y>
@@ -266,7 +266,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-wind-speed-direction.xml">
+  <instrument include="Aircraft/Instruments/digital-wind-speed-direction.xml">
    <name>Wind speed/direction display</name>
    <x>243</x>
    <y>20</y>
@@ -275,7 +275,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
   </instrument>
 
 <!-- Engine monitors -->
-  <instrument include="Instruments/digital-engine.xml">
+  <instrument include="Aircraft/Instruments/digital-engine.xml">
    <name>Engine 0 display</name>
    <params>
     <eng-num>/engines/engine[0]/engine-num</eng-num>
@@ -291,7 +291,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-engine.xml">
+  <instrument include="Aircraft/Instruments/digital-engine.xml">
    <name>Engine 1 display</name>
    <params>
     <eng-num>/engines/engine[1]/engine-num</eng-num>
@@ -307,7 +307,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-  <instrument include="Instruments/digital-ap-speed-kt.xml">
+  <instrument include="Aircraft/Instruments/digital-ap-speed-kt.xml">
    <name>AP Speed-Kt Instrument</name>
    <params>
     <kias-disp>/autopilot/settings/target-speed-kt</kias-disp>
@@ -321,7 +321,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>40</h>
   </instrument>
 
-  <instrument include="Instruments/digital-flap.xml">
+  <instrument include="Aircraft/Instruments/digital-flap.xml">
    <name>Flap setting display</name>
    <x>350</x>
    <y>11</y>
@@ -330,7 +330,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
   </instrument>
 
 <!-- Text AP Block -->
-  <instrument include="Instruments/text-autopilot.xml">
+  <instrument include="Aircraft/Instruments/text-autopilot.xml">
    <name>AP display</name>
    <params>
     <ah-select>autopilot/locks/altitude</ah-select>
@@ -346,7 +346,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
   </instrument>
 
 <!-- Collision warning -->
-  <instrument include="Instruments/collision-warning.xml">
+  <instrument include="Aircraft/Instruments/collision-warning.xml">
    <name>Collision warning display</name>
    <x>512</x>
    <y>152</y>
@@ -354,7 +354,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
    <h>16</h>
   </instrument>
 
-    <instrument include="Instruments/radar.xml">
+    <instrument include="Aircraft/Instruments/radar.xml">
       <name>Radar</name>
       <condition>
         <equals>
@@ -368,7 +368,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
       <h>160</h>
     </instrument>
 
-    <instrument include="Instruments/radar-minimized.xml">
+    <instrument include="Aircraft/Instruments/radar-minimized.xml">
       <name>Radar-minimized</name>
       <condition>
         <equals>
@@ -383,7 +383,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
     </instrument>
 
 <!-- Ap controller monitors -->
-    <instrument include="Instruments/AP-pitch-controller-monitor.xml">
+    <instrument include="Aircraft/Instruments/AP-pitch-controller-monitor.xml">
       <name>Ap pitch controller monitor display</name>
       <condition>
         <not-equals>
@@ -397,7 +397,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
       <h>96</h>
     </instrument>
 
-    <instrument include="Instruments/AP-climb-controller-monitor.xml">
+    <instrument include="Aircraft/Instruments/AP-climb-controller-monitor.xml">
       <name>Ap climb controller monitor display</name>
       <condition>
         <not-equals>
@@ -411,7 +411,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
       <h>96</h>
     </instrument>
 
-    <instrument include="Instruments/AP-AGL-monitor.xml">
+    <instrument include="Aircraft/Instruments/AP-AGL-monitor.xml">
       <name>Ap AGL monitor display</name>
       <condition>
         <equals>
@@ -425,7 +425,7 @@ Hacked by Lee Elliott for the BAC-TSR2 mock panel
       <h>96</h>
     </instrument>
 
-    <instrument include="Instruments/AP-tfa-targets-monitor.xml">
+    <instrument include="Aircraft/Instruments/AP-tfa-targets-monitor.xml">
       <name>Ap TFA targets monitor display</name>
       <condition>
         <equals>
